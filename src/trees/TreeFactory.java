@@ -13,6 +13,6 @@ public class TreeFactory {
             result = new TreeType(name, color, otherTreeData);
             treeTypes.put(name, result);
         }
-    return result;
+        return result;
     }
 }
